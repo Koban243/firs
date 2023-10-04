@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп Бородинский</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <header class="main-header">
+        <div class="main-navigaton-wrapper">
+            <div class="container">
+                <ul class="site-navigation">
+                    <li><a href="">информация</a></li>
+                    <li><a href="">новости</a></li>
+                    <li><a href="../морозов и красовский/прайс-лист Морозов и Красовский">прайс-лист</a></li>
+                    <li><a href="">магазин</a></li>
+                    <li><a href="">контакты</a></li>
+                    <li class = "header-user-link"><a class="" href="">Вход</a></li>
+                </ul>
+            </div>
+        <figure class="main-header-logo">
+            <a> 
+                <img src="img/index-logo.svg" width="300px" height="204" align="center"  alt="логотип барбершопа">
+            </a> 
+        </figure>     
+    </div>
+        
+    </header>
+    <section class="features">
+        <ul class="features2">
+            <li >
+                <h3>Быстро </h3>
+                <img src="img/Shape_1_copy.png" alt="">
+                <p>Мы делаем работу быстро:Два часа <br>пролетят незаметно и вы - счастливый<br> обладатель стильной стиржки-минутки!</p>
+            </li>
+            <li>
+                <h3>Круто</h3>
+                <img src="img/Shape_1_copy.png" alt="">
+                <p>Забудьте, как вы стриглись раньше.<br> Мы сделаем из вас звезду футбола или кино!<br> Во всяком случае внешне.</p>
+            </li>
+            <li>
+                <h3>Дорого</h3>
+                <img src="img/Shape_1_copy.png" alt="">
+                <p>Наши мастера - Профессионалы своего дела и <br> не могут стоить дёшево. к тому же, разве цена <br> не дает определенный статус?</p>
+            </li>
+        </ul>
+    </section>
+    <div class="news_photo">  
+        <section class="news">
+            <h1>НОВОСТИ</h1>
+                <p> 
+                    Нам наконец завезли ягермайстер! Теперь вы можете<br> пропустить стакинчик во время стрижки<br>
+                    <br>
+                    <time datetime="2022-01-11">11 января</time><br>
+                    <br>
+                    В нашей команде пополнение, Борис 'БРИТВА'Стригунец,<br>
+                    обладатель множества титулов и наград пополнил наши <br>
+                    стройные ряды
+                    <br>
+                    <time datetime="2022-01-18">18 января</time>
+                </p>
+                <Button class="button">ВСЕ НОВОСТИ</Button>
+        </section>         
+        <section class="photo-galeries">
+            <h2>ФОТОГАЛЕРЕЯ</h2>
+            <br>
+            <img src="img/interior.jpg" alt="Фото мест работы">
+            <br>    
+            <button class="button">НАЗАД</button>  <button class="button">ВПЕРЁД</button>    
+        </section>
+    </div> 
+    <div class="contacts_form">
+        <section class="contacts">
+            <h2>КОНТАКТНАЯ ИНФА</h2>
+            <p>
+                Барбершоп "Бородинский"<br>
+                Адрес: г.Санкт-Петтербург, ул.Конюшенная, Д.19/8<br>
+                Телефон: 8 800 555 35 35 <br>
+                <br>
+                Время работы: <br>
+                Пн-Пт: C 6:00 до 18:00
+               <br> Сб-Вс: С 11:00 до 12:00
+            </p>
+            <button class="button">Как проехать </button> 
+            <button class="button">Обратная связь</button>
+        </section>
+        <section  class="appt">
+            <h1>ЗАПИСАТЬСЯ</h1>
+            <p>Укажите желаемую дату и время записи, и мы свяжемся <br> с вами для подтвержения брони</p>
+            <form class="appt-form" action="https://echo.2ispr.site" method="post">
+            <div class="forma-one">    
+                <div class="appt-item">
+                    <label for="appt-date">Дата</label>
+                    <input type="date" name="date">
+
+                    <label  for="appt-time">Время</label>
+                    <input  type="time" name="app-time">
+                </div>
+
+                <div class="appt-item">
+                    <label  for="appt-name">Ваше имя</label>
+                    <input   type="text" name="appt-name" placeholder="Ваше имя">
+                    <label  for="appt-phone">Телефон</label>
+                    <input  type="tel" name="appt-phone" placeholder="+7-000-000-00-00">
+                </div>
+            </div>    
+            <button class='sum' type="submit" >Отправить</button>
+            </form>
+           
+        </section>            
+    </div>
+    <Footer class="dety">
+       <section> <p><center>
+            РАЗРАБОТАНО:<center>
+            <button class="raz" >NOGKOLLEGZH</button>
+        </p></section>
+    <div class="footer-social">
+        <b>Давайте дружить!</b>
+    <ul class="social-list">
+        <li class="social-item social-item-vk">
+        <a href="#">
+        <span class="visually-hidden"></span>
+        </a>
+        </li>
+        <li class="social-item social-item-facebook">
+        <a href="#">
+        <span class="visually-hidden"></span>
+        </a>
+        </li>
+        <li class="social-item social-item-inst">
+        <a href="#">
+        <span class="visually-hidden"></span>
+        </a>
+        </li>
+    </ul>
+    </div>
+        <p>
+            Барбершоп Бородинский<br>
+            Адрес:г.Санкт-Петтербург, ул.Конюшенная, Д.19/8<br>
+            <a href="">Как нас найти</a><br>
+            Телефон: 8 800 555 35 35
+        </p> 
+    </Footer>
+</body>
+</html>
